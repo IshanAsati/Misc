@@ -1,10 +1,16 @@
-
 import string
 
 symbols = string.punctuation
 capitals = string.ascii_uppercase
 smalls = string.ascii_lowercase
 numerals = string.digits
+
+print("""
+0-20   = Very Weak
+40-60  = Weak
+60-80  = Good
+80-100 = Strong
+""")
 def passGab(password):
 
     global score
